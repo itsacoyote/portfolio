@@ -1,0 +1,18 @@
+.slideshow-container {
+    width: 663px;
+    height: 435px;
+    background: url(flames-sprite.png) 0 0 no-repeat;
+}
+
+.slideshow-controls {
+    width: 663px;
+}
+.slideshow-controls .prev {
+    float: left;
+}
+.slideshow-controls .reset {
+    margin-left: 300px;
+}
+.slideshow-controls .next {
+    float: right;
+}

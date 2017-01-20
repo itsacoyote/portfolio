@@ -1,0 +1,154 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 940px;
+  }
+}
+
+h1,h2,h3,h4,h5,h6, .serif {
+	font-family: 'Bitter', serif;
+}
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+/*** HEADER ***/
+h1.name, h2.role {
+	text-align: center;
+	cursor: default;
+}
+h1.name {
+	font-size: 50px;
+	color: #FF4D00;
+}
+h2.role {
+	font-size: 28px;
+	margin-top: 0;
+	color: #9E9E9E;
+}
+
+/*** NAVIGATION ***/
+.navigation {
+	margin: 20px 0;
+	text-align: center;
+}
+.navigation a:link,
+.navigation a:visited {
+	font-size: 20px;
+	color: #004991;
+	padding: 10px 20px;
+}
+.navigation a:hover {
+	color: #006BD6;
+}
+
+/*** BODY ***/
+.body {
+	margin-top: 30px;
+}
+
+.school {
+  padding: 10px;
+}
+
+.resume-download {
+	margin-top: 5px;
+}
+.resume-tabs {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-bottom: 1px solid #eee;
+  height: 44px;
+}
+.resume-tabs li {
+  float: left;
+  display: block;
+}
+.skills-body {
+  display: none;
+}
+.skills-body ul li {
+	font-size: 16px;
+}
+.experience-tab,
+.skills-tab {
+  padding: 5px 15px;
+  height: 44px;
+  display: block;
+  border: 1px solid #eee;
+  margin: 0;
+  margin-bottom: -1px;
+  color: #a7a6a6;
+  cursor: pointer;
+}
+.resume-tabs li .active {
+  border-bottom: 1px solid #fff;
+  color: #3c3939;
+}
+
+/*** JOB ***/
+.job {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.position {
+	color: #BA5225;
+	font-weight: bold;
+}
+.company {
+	color: #9E9E9E;
+}
+.date {
+	color: #757575;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+.job .list-inline {
+	color: #31698a;
+}
+
+/*** WORK ***/
+.work {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.preview-work {
+	text-align: center;
+}
+.img-preview {
+	display: block;
+	position: relative;
+}
+.img-preview:hover {
+	background: url(../img/img-preview.png);
+}
+.preview-shadow {
+	position: absolute;
+	background: none;
+	display: none;
+}
+
+/*** FOOTER ***/
+.footer {
+	padding: 100px 0 50px 0;
+}
+.footer blockquote {
+	color: #8A8A8A;
+}
