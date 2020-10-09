@@ -1,0 +1,276 @@
+body {
+  background-color: #F3F4F2;
+  font-family: 'Arial','Helvetica',sans-serif;
+  margin-bottom: 50px;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+p {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.tiply {
+  background-color: #b4e2e6;
+  color: #0071cf;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+#split-ting-logo {
+  width: 247px;
+  height: 80px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0;
+  line-height: 0;
+  background: url(splitTing_logo.png) top center no-repeat;
+}
+
+#slogan {
+  color: #00A2E3;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+div.container {
+  background-color: #FFF;
+  width: 940px;
+  padding: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  margin: 15px auto;
+  overflow: auto;
+}
+
+.container h3 {
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.input-box {
+  border: 1px solid #DEF6FF;
+  width: 35%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  background-color: #E8F6FF;
+  padding: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.input-header {
+  color: #00789c;
+  border-bottom: 1px solid #A6C9EE;
+  text-align: center;
+}
+
+.input-box span {
+  display: block;
+  margin-bottom: 10px;
+  line-height: 18px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.input-box #bill-files {
+  outline: none;
+  width: 83%;
+  margin: 0 auto;
+  outline: none;
+  display: block;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 20px;
+  background: #00A2E3;
+  color: #FFF;
+  font-weight: normal;
+  font-size: 16px;
+  font-family: 'ProximaNovaRegular','Arial',sans-serif;
+  text-transform: none;
+  border: 0;
+  cursor: pointer;
+  line-height: 1;
+}
+
+#bill-files:hover, #bill-files:focus {
+  background: #303030;
+}
+
+.bill-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.bill-table > div {
+  display: table-row;
+  width: 100%;
+}
+.bill-row > div {
+  display: table-cell;
+  padding: 12px 5px;
+}
+.bill-row .label {
+  width: 12%;
+}
+.bill-row .type {
+  width: 10%;
+}
+.bill-row .total {
+  width: 15%;
+  text-align: right;
+}
+.bill-row .type span {
+  font-weight: bold;
+}
+
+.total-bill .total-labels {
+  width: 90%;
+}
+.total-bill strong, .total-bill span {
+  display: block;
+  clear: both;
+  text-align: right;
+  font-size: 16px;
+  padding: 8px 0;
+}
+
+.ting-button {
+  float: right;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  padding: 8px 15px;
+  background: #00A2E3;
+  color: #FFF;
+  font-weight: normal;
+  font-size: 16px;
+  font-family: 'ProximaNovaRegular','Arial',sans-serif;
+  text-transform: none;
+  border: 0;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.ting-button:hover, .ting-button:focus {
+  background: #303030;
+}
+
+.ting-button.secondary {
+  margin-right: 30px;
+  float: right;
+  background: transparent;
+  color: #00A2E3;
+}
+
+.ting-button.secondary:hover, .ting-button.secondary:focus {
+  background-color: #e6e6e6;
+  color: #00709c;
+  text-decoration: underline;
+}
+
+.bill-summary {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.bill-row {
+  display: table-row;
+  width: 100%;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+input[type="text"] {
+  width: 50%;
+  text-align: right;
+}
+
+.extras-row span {
+  display: block;
+  clear: both;
+  padding: 8px 0;
+}
+
+.split-header {
+  color: #00A2E3;
+}
+
+#bill-split-table th {
+  width: 200px;
+}
+
+#bill-split-table tr {
+  padding: 5px;
+}
+
+#bill-split-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 85%;
+}
+
+#bill-split-table tr td, #bill-split-table tr th {
+  border: 1px solid #aabdc8;
+  padding: 8px 5px;
+  text-align: right;
+}
+
+#bill-split-table tr th {
+  color: #05598a;
+  text-align: right;
+}
+
+#bill-split-table tr td:first-child, #bill-split-table tr th:first-child {
+  text-align: left;
+}
+#bill-split-table tr td:last-child, #bill-split-table tr th:last-child {
+  width: 20%;
+}
+
+/** Tipsy Styling **/
+.tipsy { font-size: 13px; position: absolute; padding: 5px; z-index: 100000; line-height: 15px; }
+.tipsy-inner { background-color: #C2F5FF; color: #0C487E; max-width: 200px; padding: 5px 8px 4px 8px; text-align: center; }
+/* Rounded corners */
+.tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+/* Uncomment for shadow */
+/*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+.tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #000; }
+/* Rules to colour arrows */
+.tipsy-arrow-n { border-bottom-color: #000; }
+.tipsy-arrow-s { border-top-color: #000; }
+.tipsy-arrow-e { border-left-color: #000; }
+.tipsy-arrow-w { border-right-color: #000; }
+.tipsy-n .tipsy-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+.tipsy-nw .tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+.tipsy-ne .tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+.tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+.tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+.tipsy-se .tipsy-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+.tipsy-e .tipsy-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+.tipsy-w .tipsy-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
